@@ -18,14 +18,14 @@ export const Login = ()  =>
     return (
        <>
         <div 
-          className="flex justify-center items-center min-h-screen"
+          className="flex justify-center items-center min-h-screen w-screen bg-[url('/manscan.jpg')] bg-cover bg-center bg-no-repeat"
         >
           <div 
-             className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md -mt-60"
+             className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md -mt-60 shadow-md"
           >
             <h2 className="text-3xl font-bold mb-6 text-center text-white mb-10">
               <span className="text-gray-600">
-                LogIn
+                Verification Center
               </span>
             </h2>
             <form>
