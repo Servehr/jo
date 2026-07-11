@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+   --color-Personal: #750606;
+   --color-Personaly: #10884cff;
+   --color-TopPersonal: #FFF8F8;
+   --color-DarkTopPersonal: #f5f0f0ff;
+
+   --color-BackGnd: #f9e4c942;
+   --color-DivHover: #f7b8b8ff;
+   --color-Button: #bb5c5cff;
+   --color-ButtonHover: #702828ff;
+   --color-PaginationButton: #114f85ff;
+   --color-CloseButton: #9d3b00;
+   --color-BGColor: #9d3b00;
+   --color-HoverColor: #e40b04ff;
+   --color-Pen: #rgba(250, 208, 181, 1)
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+   width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+   background: #750606;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+   background: #f7d4d4ff;
+   border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+   background: #555;
+}
+
+
+input, button, table {
+   border: none;
+}
+
+input:focus, button:focus, textarea:focus, checkbox:focus {
+   outline: none;
+}
